@@ -1,0 +1,75 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "nav article"
+      "nav section"
+      "footer footer";
+    grid-template-rows: 80px 1fr 70px 70px;  
+    grid-template-columns: 20% 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    }  
+  header, footer, article, nav, section {
+    padding: 1.2em;
+    background: yellowgreen;
+    }
+  #pageHeader {
+    grid-area: header;
+    }
+  #pageFooter {
+    grid-area: footer;
+    }
+  #mainArticle { 
+    grid-area: article;
+    }
+  #mainNav { 
+    grid-area: nav;
+    }
+  #mainSection { 
+    grid-area: section; 
+    }
+h3 {
+  color: beige;
+  text-shadow: black;
+}
+#pirmasPaveikslelis {
+border: 10px;
+border-style: dotted;
+}
+#antrasPaveikslelis:hover {
+  border: 3px solid;
+}
+#colgroup{
+  letter-spacing: 2px;
+  font-family: initial;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+  border: 1px;
+  border-style: solid;
+  background-color: blue;
+}
+#antrojiNuoroda {
+  color: red;
+}
+#antrojiNuoroda:visited {
+  color: green;
+}
+#antrojiNuoroda:hover {
+  color: blue;
+}
+.navSarasas:hover {
+  color: red;
+}
+h1 {
+  text-align: center;
+}
+#skritulys {
+  float: right;
+}
+#theadTable {
+  float: left;
+}

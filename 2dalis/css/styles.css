@@ -1,0 +1,124 @@
+.mainHeader {
+    border: 4px blue solid;
+    text-align: center;
+    margin: none;
+    font-family: cursive;
+}
+nav {
+    border: 4px green solid;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+}
+li {
+    margin-right: 20px;
+}
+#nuorodos{
+    text-decoration: none;
+}
+#nuorodos:link{
+    color:blue;
+}
+#nuorodos:visited{
+    color: grey;
+}
+#nuorodos:hover{
+    color: red;
+}
+.articles{
+    border: 3px red solid;
+    padding-bottom: 539px;
+    display: flex;
+    height: 1px;
+}
+.article1{
+    border: 3px black solid;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 535px;
+
+}
+.article2{
+    display: flex;
+    flex-direction: column;
+    border: 3px black solid;
+    width: 40%;
+    height: 535px;
+
+}
+aside{
+    float: right;
+    width: 20%;
+    text-align: center;
+    border: rgb(0, 102, 0) solid;
+    height: 535px;
+    display: flex;
+}
+.article1Header{
+    text-align: center;
+    border: blue solid;
+    margin: 60px 20px 0px 20px;
+}
+.article2Header{
+    text-align: center;
+    border: blue solid;
+    margin: 60px 20px 0px 20px;
+}
+.section1{
+    padding: 15px 10px 0px 10px;
+    text-align: center;
+    border: rgb(2, 2, 95) solid;
+    margin: 0px 20px 0px 20px;
+    height: 160px;
+    font-size: 18px;
+}
+.section2{
+    padding: 15px 10px 0px 10px;
+    text-align: center;
+    border: rgb(2, 2, 95) solid;
+    margin: 0px 20px 0px 20px;
+    height: 160px;
+    font-size: 18px;
+}
+.section3{
+    padding: 15px 10px 0px 10px;
+    text-align: center;
+    border: rgb(2, 2, 95) solid;
+    margin: 0px 20px 0px 20px;
+    height: 160px;
+    font-size: 18px;
+}
+.section4{
+    padding: 15px 10px 0px 10px;
+    text-align: center;
+    border: rgb(2, 2, 95) solid;
+    margin: 0px 20px 0px 20px;
+    height: 160px;
+    font-size: 18px;
+}
+.aFooter1{
+    text-align: center;
+    border: yellowgreen solid;
+    margin: 0px 20px 20px 20px;
+    height: 70px;
+    padding: 15px 10px 0px 10px;
+}
+.aFooter2{
+    text-align: center;
+    border: yellowgreen solid;
+    margin: 0px 20px 20px 20px;
+    height: 70px;
+    padding: 15px 10px 0px 10px;
+}
+.mainFooter{
+    text-align: center;
+    border: yellowgreen solid;
+}
+.asideList{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
